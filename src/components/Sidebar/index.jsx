@@ -1,4 +1,5 @@
 import React from 'react';
+// import { productData } from '../Products/data';
 import {
   SidebarContainer,
   Icon,
@@ -8,8 +9,6 @@ import {
   SidebarRoute,
   SideBtnWrap
 } from './SidebarElements';
-
-
 
 const Sidebar = ({ isOpen, toggle }) => {
   return (

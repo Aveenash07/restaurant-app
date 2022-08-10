@@ -22,7 +22,7 @@ const Footer = () => {
       <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/'>Bon Appetite</SocialLogo>
+              <SocialLogo to='/'>&copy; 2022 Bon Appetite All rights reserved. </SocialLogo>                        
             <SocialIcons>
               <SocialIconLink href='https://www.facebook.com/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
@@ -42,7 +42,7 @@ const Footer = () => {
                 <FaTwitter />
               </SocialIconLink>
               <SocialIconLink href='https://www.linkedin.com/' target='_blank' aria-label='Linkedin'>
-                <FaLinkedin />
+                <FaLinkedin />                
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>
