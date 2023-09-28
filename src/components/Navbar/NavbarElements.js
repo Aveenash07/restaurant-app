@@ -18,6 +18,11 @@ export const NavLink = styled(Link)`
   text-decoration: none;
   cursor: pointer;
 
+  &:hover{
+    text-shadow: 2px 2px 8px #ffc500;
+    transition: 0.3s ease-out;
+  }
+
   @media screen and (max-width: 400px) {
     position: absolute;
     top: 10px;
@@ -31,11 +36,14 @@ export const NavIcon = styled.div`
   top: 0;
   right: 0;
   cursor: pointer;
-  color: #fff;
+  color: white;
 
   p {
     transform: translate(-175%, 100%);
     font-weight: bold;
+  }
+  &:hover{
+    color: yellow;
   }
 `;
 

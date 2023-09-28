@@ -39,6 +39,12 @@ export const HeroH1 = styled.h1`
   margin-bottom: 1rem;
   box-shadow: 3px 5px #e9ba23;
   letter-spacing: 3px;
+  
+  &:hover{    
+    text-shadow: 2px 2px 8px #ffc500;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;    
+  }
 `;
 
 export const HeroP = styled.p`

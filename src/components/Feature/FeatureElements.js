@@ -15,14 +15,28 @@ export const FeatureContainer = styled.div`
   color: #fff;
   text-align: center;
   padding: 0 1rem;
+  opacity: 0.8;
+
+  &:hover{
+    opacity: 1;    
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
 
   h1 {
     font-size: clamp(3rem, 5vw, 5rem);
+  }
+  h1:hover{
+    text-shadow: 2px 2px 8px #ffc500;
+    transition: 0.3s ease-in-out;
   }
 
   p {
     margin-bottom: 1rem;
     font-size: clamp(1rem, 3vw, 2rem);
+  }
+  p:hover{
+    cursor: none;
   }
 `;
 export const FeatureButton = styled.button`

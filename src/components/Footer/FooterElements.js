@@ -43,6 +43,11 @@ export const SocialLogo = styled(Link)
   align-items: center;
   margin-bottom: 16px;
   font-weight: bold;
+
+  &:hover{
+    text-shadow: 2px 2px 8px #ffc500;
+    transition: 0.3s ease-out;    
+  }
 `;
 
 export const SocialIcons = styled.div `
@@ -50,11 +55,28 @@ export const SocialIcons = styled.div `
   justify-content: space-between;
   align-items: center;
   width: 240px;
+  
+  // &:hover{
+  //   box-shadow: 2px 2px 8px #ffc500;
+  //   shadow: 2px 2px 8px #ffc500;
+  //   padding: 0.5rem;
+  //   transition: 0.3s ease-out;
+  //   border-radius: 10px;
+  // }
 `;
 
 export const SocialIconLink = styled.a `
   color: #fff;
   font-size: 24px;
+  &:hover{
+    box-shadow: 2px 2px 8px #ffc500;
+    shadow: 2px 2px 8px #ffc500;
+    padding: 0.5rem;
+    transition: 0.3s ease-out;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+  }
 `;
 
 /* export const SocialIconLink = styled.a`

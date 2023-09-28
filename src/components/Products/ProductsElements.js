@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const ProductsContainer = styled.div `
   /* width: 100vw; */
   min-height: 100vh;
@@ -26,6 +27,15 @@ export const ProductImg = styled.img `
   min-width: 300px;
   max-width: 100%;
   box-shadow: 8px 8px #fdc500;
+  &:hover{
+    border: 1rem solid #fdc500;
+    backgorund: #e31837;    
+    transition: 0.3s ease-in-out; 
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  
+
 `;
 
 export const ProductsHeading = styled.h1 `
@@ -66,9 +76,10 @@ export const ProductButton = styled.button `
   transition: 0.2 ease-out;
 
   &:hover {
-    background: #ffc500;
-    transition: 0.2s ease-out;
+    
     cursor: pointer;
-    color: #000;
+    color: white;
+    transition: 0.2s ease-in-out;
+    background: #e31837;
   }
 `;
